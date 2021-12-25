@@ -1,0 +1,13 @@
+.main{
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+.div{
+    background-color:red;
+    height: 78vh;
+    width: 1270px;
+    justify-content: start;
+    border: 2px solid black;
+}
