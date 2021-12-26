@@ -1,0 +1,20 @@
+.main{
+    margin: auto auto;
+}
+
+.box{
+    border: 2px solid #000000;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    font: 22px white;
+}
+
+button{
+    border: none;
+    font-size : 40px;
+}
