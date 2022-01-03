@@ -1,5 +1,5 @@
 
-function getFullName( firstName, lastName ){
+function fullName( firstName, lastName ){
     return firstName + " " + lastName;
 }
 
@@ -14,8 +14,8 @@ function getCircumfrence( radius){
 
 function getArea( r){
     const pi = 3.14;
-    let area = 2*pi*r;
+    let area = pi*(r**2);
     return `The area is ${area}`
 }
 
-module.exports = {getFullName,isPalindrome,getCircumfrence,getArea};
+module.exports = {fullName,isPalindrome,getCircumfrence,getArea};
