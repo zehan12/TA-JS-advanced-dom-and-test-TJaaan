@@ -2,7 +2,7 @@ const index = require('./index');
 
 // For full Name check
 test('if full Name is correct', () => {
-  expect(index.fullName('zehan', 'khan')).toBe('Anand Seshadri');
+  expect(index.fullName('zehan','khan')).toBe('zehan khan');
 });
 
 test('if full Name is correct', () => {
@@ -12,32 +12,30 @@ test('if full Name is correct', () => {
   expect(index.fullName('', '')).toBe(' ');
 });
 test('if full Name is correct', () => {
-  expect(index.fullName('vasant', 'saraswat')).toBe('Anand');
+  expect(index.fullName('vasant', 'saras')).toBe('vasant saras');
 });
 
 // Circumference
 test('to test if circumference is correct', () => {
-  expect(index.getCircumfrence(2)).toBe(
-    'The circumference of the cirle is 12.566370614359172'
-  );
+  expect(index.getCircumfrence(2)).toBe('The circumference is 4');
 });
 test('to test if circumference is correct', () => {
-  expect(index.getCircumfrence(2)).toBe('The circumference of the cirle is 12');
+  expect(index.getCircumfrence(2)).toBe('The circumference is 4');
 });
 test('to test if circumference is correct', () => {
-  expect(index.getCircumfrence(2)).toBe(12.566370614359172);
+  expect(index.getCircumfrence(2)).toBe('The circumference is 4');
 });
 
 // Area
 test('to test if Area is correct', () => {
-  expect(index.getArea(2)).toBe('The area of the cirle is 12.566370614359172');
+  expect(index.getArea(2)).toBe('The area is 12.56');
 });
 test('to test if Area is correct', () => {
-  expect(index.getArea(2)).toBe('The area of the cirle is 12.56');
+  expect(index.getArea(2)).toBe('The area is 12.56');
 });
 test('to test if Area is correct', () => {
-  expect(index.getArea(2)).toBe(12.566370614359172);
+  expect(index.getArea(2)).toBe('The area is 12.56');
 });
 test('to test if Area is correct', () => {
-  expect(index.getArea(3)).toBe(12.566370614359172);
+  expect(index.getArea(3)).toBe('The area is 28.26');
 });
